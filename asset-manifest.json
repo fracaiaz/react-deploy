@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/http//fracaiaz.github.io/react-deploy/static/css/main.0f1a723d.chunk.css",
-    "main.js": "/http//fracaiaz.github.io/react-deploy/static/js/main.e2ab9c2c.chunk.js",
-    "main.js.map": "/http//fracaiaz.github.io/react-deploy/static/js/main.e2ab9c2c.chunk.js.map",
+    "main.js": "/http//fracaiaz.github.io/react-deploy/static/js/main.46a3be69.chunk.js",
+    "main.js.map": "/http//fracaiaz.github.io/react-deploy/static/js/main.46a3be69.chunk.js.map",
     "runtime-main.js": "/http//fracaiaz.github.io/react-deploy/static/js/runtime-main.bdf98fe5.js",
     "runtime-main.js.map": "/http//fracaiaz.github.io/react-deploy/static/js/runtime-main.bdf98fe5.js.map",
     "static/js/2.c3325db6.chunk.js": "/http//fracaiaz.github.io/react-deploy/static/js/2.c3325db6.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.bdf98fe5.js",
     "static/js/2.c3325db6.chunk.js",
     "static/css/main.0f1a723d.chunk.css",
-    "static/js/main.e2ab9c2c.chunk.js"
+    "static/js/main.46a3be69.chunk.js"
   ]
 }
