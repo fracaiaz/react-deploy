@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <h1>CACCIA AL TESORO 2021</h1>
-      <h2>Author: fracaiaz</h2>
+      <h2>Azione cattolica giovanissimi della parrocchia Santa Maria la carità</h2>
       <img src={profileImage} alt="profile-image"/>
     </div>
   );
