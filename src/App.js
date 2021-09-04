@@ -12,11 +12,20 @@ function App() {
   return (
     <div className="App">
       <Container>
+        <Row>
       <h1>CACCIA AL TESORO 2021</h1>
       <h2>Azione cattolica ACG Santa Maria la Carità </h2>
-      
+      </Row>
+      <Row>
+        <Col sm="6">
       <img src={profileImage} alt=""/>
+      </Col>
+      <Col sm="6"></Col>
+      </Row>
+      <Row>
+      
       <img src={profileImage2} alt="profile-image"/>
+      </Row>
       </Container>
     </div>
     
