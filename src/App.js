@@ -3,27 +3,28 @@ import './App.css';
 import profileImage from './img/hp.png'
 import profileImage2 from './img/harry.png'
 import MediaQuery from react-responsove
-const isMobileDevice = useMediaQuery({
-  query: "(min-device-width: 480px)",
-});
-
-const isTabletDevice = useMediaQuery({
-  query: "(min-device-width: 768px)",
-});
-
-const isLaptop = useMediaQuery({
-  query: "(min-device-width: 1024px)",
-});
-
-const isDesktop = useMediaQuery({
-  query: "(min-device-width: 1200px)",
-});
-
-const isBigScreen = useMediaQuery({
-  query: "(min-device-width: 1201px )",
-});
 
 function App() {
+  const isMobileDevice = useMediaQuery({
+    query: "(min-device-width: 480px)",
+  });
+  
+  const isTabletDevice = useMediaQuery({
+    query: "(min-device-width: 768px)",
+  });
+  
+  const isLaptop = useMediaQuery({
+    query: "(min-device-width: 1024px)",
+  });
+  
+  const isDesktop = useMediaQuery({
+    query: "(min-device-width: 1200px)",
+  });
+  
+  const isBigScreen = useMediaQuery({
+    query: "(min-device-width: 1201px )",
+  });
+  
   console.log("hai risolto il misfatto")
   return (
     <div className="App">
