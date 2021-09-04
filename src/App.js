@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import profileImage from './img/hp.png'
 import profileImage2 from './img/harry.png'
+import MediaQuery from react-responsove
 const isMobileDevice = useMediaQuery({
   query: "(min-device-width: 480px)",
 });
@@ -34,6 +35,9 @@ function App() {
   {isDesktop && <Desktop />}
   {isLaptop && <Laptop />}
   {isBigScreen && <BigScreen />}
+  <MediaQuery minDeviceWidth={1224}>
+  <p>Manipulate me with the powers of React Responsive</p>
+</MediaQuery>
 </>}
       <img src={profileImage} alt=""/>
       <img src={profileImage2} alt="profile-image"/>
