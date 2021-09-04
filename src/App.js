@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import profileImage from './img/hp.png'
+import profileImage2 from './img/harry.png'
 
 function App() {
   console.log("hai risolto il misfatto")
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       <h1>CACCIA AL TESORO 2021</h1>
       <h2>Azione cattolica </h2>
-      <img src={profileImage} alt="profile-image"/>
+      <img src={profileImage} alt=""/>
+      <img src={profileImage2} alt="profile-image"/>
     </div>
   );
 }
