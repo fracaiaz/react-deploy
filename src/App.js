@@ -37,7 +37,7 @@ function App() {
   
   </BrowserView>
   <MobileView>
-      <h3>tick= Open it on your PC</h3>
+      <h3>tip= Open it on your PC</h3>
   </MobileView>
 </>
       
