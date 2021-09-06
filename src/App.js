@@ -34,10 +34,10 @@ function App() {
       <>
   <BrowserView>
   <img src={profileImage} alt=""/>
-  <h1>ciao</h1>
+  
   </BrowserView>
   <MobileView>
-      <h1>tick= Open it on your PC</h1>
+      <h3>tick= Open it on your PC</h3>
   </MobileView>
 </>
       
