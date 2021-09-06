@@ -26,7 +26,7 @@ function App() {
 
   console.log("ecco un alto consiglio -> DECODE BASE 64")
   console.log("TGEgc29sdXppb25lIGFsbCdlbmlnbWEgbGEgdHJvdmkgbmVsIGxvY2FsIHN0b3JhZ2UuClNlIHNlaSBhcnJpdmF0byBmaW5vIGEgcXVpLCBhdnJhaSBzaWN1cmFtZW50ZSB2aXN0byBjaGUgcXVhbmRvIGhhaSBjbGljY2F0byBzdSBpc3BlemlvbmEgc2kgw6ggYXBlcnRhIHVuYSB0YWJlbGxhLgpRdWVzdGEgaGEgdW5hIHNlcmllIGRpIFRBQi4gU2UgY2xpY2NoaSBzdSBBcHBsaWNhdGlvbiwgdGkgc2kgYXByaXLDoCB1biBtZW7DuSBhIHRlbmRpbmEgc3VsbGEgc2luaXN0cmEsIGNsaWNjYSBzdSBMb2NhbCBTdG9yYWdlIGUgZ3VhcmRhIGFsIGNlbnRybyBkZWxsYSBwYWdpbmEsIG5lbCBjYW1wbyBWYWx1ZS4=")
-  sessionStorage.setItem("luogo","Pontone")
+ 
   return (
     <div className="App">
 
