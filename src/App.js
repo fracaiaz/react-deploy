@@ -5,7 +5,6 @@ import profileImage2 from './img/harry.gif'
 import { Container,Row,Col } from 'reactstrap'
 import React, {useState, useEffect} from 'react';
 import {BrowserView, MobileView} from 'react-device-detect';
-import ss from "session-storage"
 
 function useWindowSize(){
   const [size,setSize] = useState([window.innerHeight,window.innerWidth]);
