@@ -4,6 +4,7 @@ import profileImage from './img/hp.png'
 import profileImage2 from './img/harry.gif'
 import { Container,Row,Col } from 'reactstrap'
 import React, {useState, useEffect} from 'react';
+import {BrowserView, MobileView} from 'react-device-detect';
 
 function useWindowSize(){
   const [size,setSize] = useState([window.innerHeight,window.innerWidth]);
@@ -21,15 +22,25 @@ function useWindowSize(){
 
 function App() {
 
+
   
   console.log("hai risolto il misfatto")
   return (
     <div className="App">
-      
+
          
       <h1>CACCIA AL TESORO 2021</h1>
       <h2>Azione cattolica ACG Santa Maria la Carità </h2>
-      <img src={profileImage} alt=""/>
+      <>
+  <BrowserView>
+  <img src={profileImage} alt=""/>
+  <h1>ciao</h1>
+  </BrowserView>
+  <MobileView>
+      <h1>tick= Open it on your PC</h1>
+  </MobileView>
+</>
+      
       <img src={profileImage2} alt="profile-image"/>
 
     </div>
