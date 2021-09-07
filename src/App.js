@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import profileImage from './img/hp.png'
 import profileImage2 from './img/harry.gif'
+import profileImage3 from './img/bacchetta.png'
 import { Container,Row,Col } from 'reactstrap'
 import React, {useState, useEffect} from 'react';
 import {BrowserView, MobileView} from 'react-device-detect';
@@ -23,7 +24,7 @@ function useWindowSize(){
 function App() {
 
 
-  console.log("ecco un alto consiglio -> DECODE BASE 64")
+  console.log(" -> DECODE BASE 64")
   console.log("aHR0cHM6Ly93d3cuYmFyZ2lvcm5hbGUuaXQvd3AtY29udGVudC91cGxvYWRzL3NpdGVzLzQvMjAxNi8wMy95b2dhLmpwZw==")
  
   return (
@@ -38,6 +39,7 @@ function App() {
   
   </BrowserView>
   <MobileView>
+      <img src={profileImage3} alt=""/>
       <h3>tip= Open it on your PC</h3>
   </MobileView>
 </>
