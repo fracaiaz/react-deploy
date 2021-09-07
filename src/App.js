@@ -3,11 +3,12 @@ import './App.css';
 import profileImage from './img/hp.png'
 import profileImage2 from './img/harry.gif'
 import profileImage3 from './img/bacchetta.png'
-import { Container,Row,Col } from 'reactstrap'
+
 import React, {useState, useEffect} from 'react';
 import {BrowserView, MobileView} from 'react-device-detect';
 import { icons } from 'react-icons';
-import { FaTrashAlt, FaInfoCircle, FaEye, FaEyeSlash, IoMdLaptop, IoIosColorWand, IoIosDesktop} from 'react-icons/fa';
+import { FaTrashAlt, FaInfoCircle, FaEye, FaEyeSlash, IoMdLaptop, IoIosColorWand, FaDesktop,FaMagic} from 'react-icons/fa';
+import { Row, Col} from "react-bootstrap";
 function useWindowSize(){
   const [size,setSize] = useState([window.innerHeight,window.innerWidth]);
   useEffect(()=>{
@@ -45,16 +46,21 @@ function App() {
       <>
   <BrowserView>
   <img src={profileImage} alt=""/>  
+  
+    
   </BrowserView>
   <MobileView>
+   
       
-  { isImg && <button className="button" onClick={ appari2}> Open it on your PC
+  { isImg && <FaDesktop className="button" onClick={ appari2}> 
   <i className="fa fa-heart-o" />
-          </button>}
+          </FaDesktop>}
   { !isImg &&
- <FaEye className="button" onClick={ appari}> Clicca
+ <FaMagic className="button" onClick={ appari}> Clicca
+ 
            <icons className="pe-7s-shopbag" />
-          </FaEye>
+          </FaMagic>
+          
 }
   </MobileView>
 </>
